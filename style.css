@@ -47,7 +47,7 @@ section{
 
 h1 {
   font-weight: bolder;
-  font-size:xx-large;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -56,9 +56,6 @@ h2{
   text-decoration: underline;
 }
 
-p{
-  font-size: medium;
-}
 
 .btn{
   font-weight: bolder;

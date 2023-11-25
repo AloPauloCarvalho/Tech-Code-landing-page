@@ -89,7 +89,8 @@ header {
    background-image: url(./images/svg\ illustrations/hero-img-bg-02.svg);
    background-repeat: no-repeat;
    background-position: center;
-   background-size:cover;
+   background-size: cover;
+   opacity: 0.4;
 
 }
 

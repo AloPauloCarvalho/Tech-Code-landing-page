@@ -47,7 +47,7 @@ section{
 
 h1 {
   font-weight: bolder;
-  font-size: clamp(1.5rem, .7rem + 10px, 2rem);
+  font-size: large;
   text-transform: uppercase;
   width: 60vw;
 }

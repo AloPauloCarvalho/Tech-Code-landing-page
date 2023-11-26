@@ -47,13 +47,14 @@ section{
 
 h1 {
   font-weight: bolder;
-  font-size: large;
   text-transform: uppercase;
   width: 60vw;
 }
 
-p{
-  font-size: medium;
+P{
+  font-size: .85rem;
+  width: 100%;
+  text-align: center;
 }
 
 h2{

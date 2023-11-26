@@ -49,10 +49,11 @@ h1 {
   font-weight: bolder;
   font-size: clamp(1.5rem, .7rem + 10px, 2rem);
   text-transform: uppercase;
+  width: 60vw;
 }
 
 p{
-  font-size: small;
+  font-size: medium;
 }
 
 h2{
@@ -63,6 +64,7 @@ h2{
 
 .btn{
   font-weight: bolder;
+  font-size: large;
   width: 80%;
   background-color: #5983C2;
 }

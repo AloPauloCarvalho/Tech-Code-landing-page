@@ -63,12 +63,27 @@ h2{
   
   }
 
+  h1{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100vw;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .btn{
+    font-weight: bold;
+  }
+
   .typing-animation{
     font-family: 'IBM Plex Mono', monospace;
     color: #5983C2;
   }
 
-  @media (max-width: 375px){
+  @media (max-width: 439px){
 
     header {
       padding: 22.5vh 10vw 30vh;
@@ -76,15 +91,10 @@ h2{
     }
 
     h1 {
-      text-align: center;
-      font-weight: bolder;
-      text-transform: uppercase;
-      width: 100vw;
       font-size: 2.25rem;
     }
 
     p{
-      text-align: center;
       font-size: .9rem;
       padding: 0 10% 0;
     }
@@ -92,22 +102,98 @@ h2{
     .btn{
       --bs-btn-padding: .35rem;
       --bs-btn-font-size: .8rem;
-
-      font-weight: bold;
     }
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 440px){
 
-    .detail-box {
-      text-align: center;
-      max-width: 50vw;
-  
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+    header {
+      padding: 25vh 10vw 30vh;
+
     }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p{
+      font-size: .9rem;
+      padding: 0 10% 0;
+    }
+
+    .btn{
+      --bs-btn-padding: .35rem;
+      --bs-btn-font-size: .8rem;
+    }
+  }
+
+  @media (min-width: 594px){
+
+    header {
+      padding: 30vh 10vw 30vh;
+
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p{
+      font-size: .9rem;
+      padding: 0 15% 0;
+    }
+
+    .btn{
+      --bs-btn-padding: .35rem;
+      --bs-btn-padding-x: 2.25rem;
+      --bs-btn-font-size: .9rem;
+    }
+  }
+
+  @media (min-width: 712px){
+
+    header {
+      padding: 30vh 10vw 30vh;
+
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p{
+      font-size: .9rem;
+      padding: 0 15% 0;
+    }
+
+    .btn{
+      --bs-btn-padding: .35rem;
+      --bs-btn-padding-x: 2.25rem;
+      --bs-btn-font-size: .9rem;
+    }
+  }
+    @media (min-width: 729px){
+
+      header {
+        padding: 30vh 15vw 30vh;
+  
+      }
+  
+      h1 {
+        font-size: 3rem;
+        padding: 0 5% 0;
+      }
+  
+      p{
+        font-size: .9rem;
+        padding: 0 15% 0;
+      }
+  
+      .btn{
+        --bs-btn-padding: .35rem;
+        --bs-btn-padding-x: 2.25rem;
+        --bs-btn-font-size: .9rem;
+      }
   }
 
   /*Main*/

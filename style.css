@@ -1,4 +1,4 @@
-*/*{
+/**{
     border: 1px solid red;
 }*/
 
@@ -25,10 +25,6 @@ input, button, textarea, select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-
 #root, #__next {
   isolation: isolate;
 }
@@ -44,7 +40,6 @@ section{
   margin-bottom: 10px;
 }
 
-
 h2{
   font-weight: bolder;
   text-decoration: underline;
@@ -56,8 +51,10 @@ h2{
 
   header {
     height: 85vh;
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   
      background-image: url(./images/svg\ illustrations/hero-img-bg-02.svg);
      background-repeat: no-repeat;
@@ -66,40 +63,20 @@ h2{
   
   }
 
-  h1 {
-    font-weight: bolder;
-    text-transform: uppercase;
-    width: 60vw;
-  }
-
-  p{
-    font-size: .85rem;
-    text-align: center;
-  }
-
-  .detail-box {
-    text-align: center;
-    max-width: 50vw;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  .typing-animation{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #5983C2;
   }
 
   @media (max-width: 375px){
-    .detail-box {
-      text-align: center;
-      max-width: 50vw;
-      max-height: 35vh;
-  
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+
+    header {
+      padding: 25vh 10vw 30vh;
+
     }
 
     h1 {
+      text-align: center;
       font-weight: bolder;
       text-transform: uppercase;
       width: 100vw;
@@ -107,14 +84,14 @@ h2{
     }
 
     p{
-      font-size: .9rem;
       text-align: center;
     }
 
-    button{
-      font-weight: bolder;
-      font-size: small;
-      font-size: .2rem;
+    .btn{
+      --bs-btn-padding: .35rem;
+      --bs-btn-font-size: .8rem;
+
+      font-weight: bold;
     }
   }
 
@@ -129,17 +106,6 @@ h2{
       justify-content: center;
       align-items: center;
     }
-  }
-
-  .typing-animation{
-    font-family: 'IBM Plex Mono', monospace;
-    color: #5983C2;
-  }
-
-  .btn{
-    font-weight: bolder;
-    font-size: medium;
-    background-color: #5983C2;
   }
 
   /*Main*/
@@ -165,7 +131,7 @@ h2{
   align-items: center;
 }
 
-.img-contatox{
+.img-contato{
   max-height: 20vh;
 }
 

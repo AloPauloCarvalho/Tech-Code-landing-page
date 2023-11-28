@@ -77,15 +77,15 @@ h2{
     margin: 0 10%;
     margin-top: 10%;
 
-    font-size: clamp(4.5vh, 5vw, 5.5vh);
+    font-size: clamp(4.75vh, 5vw, 5.5vh);
   }
 
   p{
     text-align: center;
     font-size: smaller;
 
-    margin: 10px 15% 10px;
-    font-size: clamp(1.25vh, 1.5vw, 1.75vh);
+    margin: 5px 15% 10px;
+    font-size: clamp(1.5vh, 1.75vw, 2vh);
   }
 
   .btn{

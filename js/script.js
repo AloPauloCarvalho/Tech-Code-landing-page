@@ -25,7 +25,7 @@ const typeEffect = () => {
         isDeleting = !isDeleting;
         dynamicText.classList.remove("stop-blinking");
         wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
-        setTimeout(typeEffect, 1200);
+        setTimeout(typeEffect, 600);
     }
 }
 

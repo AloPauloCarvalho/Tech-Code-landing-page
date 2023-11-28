@@ -74,10 +74,10 @@ h2{
     font-weight: bolder;
     text-transform: uppercase;
     
-    margin: 0 15%;
+    margin: 0 10%;
     margin-top: 10%;
 
-    font-size: clamp(4vh, 4.5vw, 5vh);
+    font-size: clamp(4.5vh, 5vw, 5.5vh);
   }
 
   p{

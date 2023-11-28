@@ -1,6 +1,6 @@
-/**{
+*{
     border: 1px solid red;
-}*/
+}
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -35,15 +35,6 @@ body{
   min-height: 100vh;
 }
 
-section{
-  margin-bottom: 10px;
-}
-
-h2{
-  font-weight: bolder;
-  text-decoration: underline;
-}
-
 /* CLASSES */
 
   /*Header*/
@@ -57,23 +48,25 @@ h2{
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
-  
+
   }
 
   .hero-wrapper{
-    max-width: 530px;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    max-width: 530px;
+    max-height: 500px;
   }
 
   h1{
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
-    
+
     margin: 0% 10%;
     margin-top: 10%;
 
@@ -85,7 +78,7 @@ h2{
     font-size: smaller;
 
     margin: 5px 20% 10px;
-    font-size: clamp(1.8vh, 2.35vw, 2.75vh);
+    font-size: clamp(1.5vh, 2.35vw, 1vh);
   }
 
   .btn{
@@ -96,130 +89,30 @@ h2{
 
   .typing-animation {
     font-family: 'IBM Plex Mono', monospace;
-    color: #5983C2;
+    color: #3f73c2;
   }
 
   .typed-cursor {
     display: inline;
-    color:#5983C2;
+    color: #3f73c2;
   }
 
-  /* @media (min-width: 440px){
 
-    header {
-      padding: 25vh 10vw 30vh;
+/*Main*/
 
-    }
-
-    h1 {
-      font-size: 3rem;
-    }
-
-    p{
-      font-size: .9rem;
-      padding: 0 10% 0;
-    }
-
-    .btn{
-      --bs-btn-padding: .35rem;
-      --bs-btn-font-size: .8rem;
-    }
-  }
-
-  @media (min-width: 594px){
-
-    header {
-      padding: 30vh 10vw 30vh;
-
-    }
-
-    h1 {
-      font-size: 3rem;
-    }
-
-    p{
-      font-size: .9rem;
-      padding: 0 15% 0;
-    }
-
-    .btn{
-      --bs-btn-padding: .35rem;
-      --bs-btn-padding-x: 2.25rem;
-      --bs-btn-font-size: .9rem;
-    }
-  }
-
-  @media (min-width: 712px){
-
-    header {
-      padding: 30vh 10vw 30vh;
-
-    }
-
-    h1 {
-      font-size: 3rem;
-    }
-
-    p{
-      font-size: .9rem;
-      padding: 0 15% 0;
-    }
-
-    .btn{
-      --bs-btn-padding: .35rem;
-      --bs-btn-padding-x: 2.25rem;
-      --bs-btn-font-size: .9rem;
-    }
-  }
-    @media (min-width: 729px){
-
-      header {
-        padding: 30vh 15vw 30vh;
-  
-      }
-  
-      h1 {
-        font-size: 3rem;
-        padding: 0 5% 0;
-      }
-  
-      p{
-        font-size: .9rem;
-        padding: 0 15% 0;
-      }
-  
-      .btn{
-        --bs-btn-padding: .35rem;
-        --bs-btn-padding-x: 2.25rem;
-        --bs-btn-font-size: .9rem;
-      }
-  } */
-
-  /*Main*/
-
-.section-text {
-  display: flex;
-  justify-content: center;
-
-  margin-bottom: 2rem;
-}
-
-
-.container .qa-container{
-  display: grid;
-  place-content: center;
-  
-}
-
-.form-container{
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  margin: 0 5% 0 5%;
 }
 
-.img-contato{
-  max-height: 20vh;
+h2{
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: capitalize;
 }
 
 .tutorial-container {
@@ -227,21 +120,11 @@ h2{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-width: 75vw;
-
-  margin-bottom: 3rem;
 }
 
 .card{
-  margin: auto;
-  padding: 1.5rem;
-  border:0;
+  margin: 3.5%;
+  border: 0;
 }
 
-
-
-.accordion-button{
-  background-color: #5983C2;
-  color: white;
-}
 

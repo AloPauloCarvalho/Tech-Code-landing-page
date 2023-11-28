@@ -74,7 +74,7 @@ h2{
     font-weight: bolder;
     text-transform: uppercase;
     
-    margin: 0 10%;
+    margin: 0% 10%;
     margin-top: 10%;
 
     font-size: clamp(4.75vh, 5vw, 5.5vh);
@@ -84,8 +84,8 @@ h2{
     text-align: center;
     font-size: smaller;
 
-    margin: 5px 15% 10px;
-    font-size: clamp(1.8vh, 2.5vw, 2.75vh);
+    margin: 5px 20% 10px;
+    font-size: clamp(1.8vh, 2.35vw, 2.75vh);
   }
 
   .btn{

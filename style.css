@@ -100,6 +100,7 @@ h2{
   }
 
   .typed-cursor {
+    display: inline;
     color:#5983C2;
   }
 

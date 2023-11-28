@@ -85,7 +85,7 @@ h2{
     font-size: smaller;
 
     margin: 5px 15% 10px;
-    font-size: clamp(1.5vh, 1.75vw, 2vh);
+    font-size: clamp(1.8vh, 2.5vw, 2.75vh);
   }
 
   .btn{

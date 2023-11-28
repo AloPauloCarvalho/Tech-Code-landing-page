@@ -94,9 +94,13 @@ h2{
     --bs-btn-font-size: .8rem;
   }
 
-  .typing-animation{
+  .typing-animation {
     font-family: 'IBM Plex Mono', monospace;
     color: #5983C2;
+  }
+
+  .typed-cursor{
+    color:#5983C2;
   }
 
   /* @media (min-width: 440px){

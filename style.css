@@ -1,4 +1,4 @@
-*/*{
+/**{
     border: 1px solid red;
 }*/
 
@@ -12,7 +12,6 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  min-height: 100vh;
 }
 
 img, picture, video, canvas, svg {
@@ -49,6 +48,7 @@ body{
      background-position: center;
      background-size: cover;
 
+    margin-bottom: 25px;
   }
 
   .hero-wrapper{
@@ -73,7 +73,7 @@ body{
     font-size: clamp(4.75vh, 5vw, 5.5vh);
   }
 
-  p{
+  .hero-text{
     text-align: center;
     font-size: smaller;
 
@@ -100,30 +100,50 @@ body{
 
 /*Main*/
 
+main{
+  min-width: 100vw;
+}
+
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-content: center;
+
+  min-width: 100%;
 }
 
 h2{
     font-weight: bolder;
     text-decoration: underline;
     text-transform: capitalize;
+
+    text-align: center;
 }
 
 .tutorial-container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .card{
-  margin: 3.5%;
   border: 0;
-  width: 80%;
+  width: 25rem;
+  padding: 3.5%;
 }
 
+h5 {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.card-text {
+  text-align:center;
+}
+
+.card-img-top{
+  height: 100%;
+}
 
